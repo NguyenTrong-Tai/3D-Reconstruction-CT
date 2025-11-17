@@ -172,7 +172,8 @@ def get_parser():
     parser.add_argument('--cp_path', type=str, default='./exp/', help='checkpoint path')
     parser.add_argument('--log_path', type=str, default='./log/', help='log path')
     parser.add_argument('--unique_name', type=str, default='test', help='unique experiment name')
-    
+
+    parser.add_argument('--split_seed', type=int, default=42)
     parser.add_argument('--gpu', type=str, default='0')
 
     args = parser.parse_args()
