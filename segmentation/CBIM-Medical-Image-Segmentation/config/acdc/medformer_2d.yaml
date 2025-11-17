@@ -1,5 +1,5 @@
 #DATA
-data_root: dataset/acdc_2d
+data_root: dataset/ACDC_2D
 classes: 4
 modality: mri
 

@@ -140,6 +140,7 @@ with open(config_path, 'r') as f:
 # args.update(config)
 # for key, value in config.items():
 #     setattr(args, key, value)
+
 from model.dim2 import MedFormer
 net=MedFormer(args['in_chan'], args['classes'], args['base_chan'], map_size=args['map_size'], conv_block=args['conv_block'], conv_num=args['conv_num'], trans_num=args['trans_num'], num_heads=args['num_heads'], fusion_depth=args['fusion_depth'], fusion_dim=args['fusion_dim'], fusion_heads=args['fusion_heads'], expansion=args['expansion'], attn_drop=args['attn_drop'], proj_drop=args['proj_drop'], proj_type=args['proj_type'])
 net.load_state_dict(torch.load(model_path))

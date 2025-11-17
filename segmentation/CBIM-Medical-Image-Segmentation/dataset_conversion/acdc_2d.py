@@ -36,8 +36,8 @@ def ResampleCMRImage(imImage, imLabel, save_path, patient_name, count, target_sp
 if __name__ == '__main__':
 
 
-    src_path = '/research/cbim/medical/medical-share/public/ACDC/raw/training/'
-    tgt_path = '/research/cbim/medical/yg397/tgt_dir/'
+    src_path = 'E://DMCVR//database//database//training'
+    tgt_path = 'E://DMCVR//datasets//ACDC_2D//'
 
 
 
