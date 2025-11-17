@@ -504,7 +504,7 @@ def compute_surface_distances(mask_gt,
 
   else:
 
-    distmap_gt = np.Inf * np.ones(borders_gt.shape)
+    distmap_gt = np.inf * np.ones(borders_gt.shape)
 
 
 
@@ -516,7 +516,7 @@ def compute_surface_distances(mask_gt,
 
   else:
 
-    distmap_pred = np.Inf * np.ones(borders_pred.shape)
+    distmap_pred = np.inf * np.ones(borders_pred.shape)
 
 
 
@@ -692,7 +692,7 @@ def compute_robust_hausdorff(surface_distances, percent):
 
   else:
 
-    perc_distance_gt_to_pred = np.Inf
+    perc_distance_gt_to_pred = np.inf
 
 
 
@@ -710,7 +710,7 @@ def compute_robust_hausdorff(surface_distances, percent):
 
   else:
 
-    perc_distance_pred_to_gt = np.Inf
+    perc_distance_pred_to_gt = np.inf
 
 
 
